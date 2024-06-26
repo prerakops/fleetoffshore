@@ -29,15 +29,15 @@ const products = [
   {
     id: 1,
     name: 'Engine Control Alarm Systems',
-    href: '/products/engine-control-alarm-system',
+    href: '/products/Engine',
     // price: '$48',
-    imageSrc: 'https://images.unsplash.com/photo-1605050287918-5e2be7797f73?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
   {
     id: 2,
     name: 'Navigation Equipment',
-    href: '/products/navigation-equipment',
+    href: '/products/Engine',
     // price: '$35',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
@@ -45,7 +45,7 @@ const products = [
   {
     id: 3,
     name: 'Hydraulic System And Solutions',
-    href: '/products/hydraulics',
+    href: '/products/Engine',
     // price: '$89',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
@@ -53,7 +53,7 @@ const products = [
   {
     id: 4,
     name: 'Turbo Chargers',
-    href: '/products/turbo-chargers',
+    href: '/products/Engine',
     // price: '$35',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -61,7 +61,7 @@ const products = [
   {
     id: 1,
     name: 'Oil Mist Detectors',
-    href: '/products/oil-mist-detector',
+    href: '/products/Engine',
     // price: '$48',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
@@ -69,7 +69,7 @@ const products = [
   {
     id: 2,
     name: 'Marine Winch',
-    href: '/products/winch',
+    href: '/products/Engine',
     // price: '$35',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
@@ -77,7 +77,7 @@ const products = [
   {
     id: 3,
     name: 'Dynamic Positioning System',
-    href: '/products/dp-system',
+    href: '/products/Engine',
     // price: '$89',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
@@ -85,7 +85,7 @@ const products = [
   {
     id: 4,
     name: 'Main Engine',
-    href: '/products/engines',
+    href: '/products/Engine',
     // price: '$35',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -93,7 +93,7 @@ const products = [
   {
     id: 4,
     name: 'Marine Cranes',
-    href: '/products/marine-cranes',
+    href: '/products/Engine',
     // price: '$35',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -101,7 +101,7 @@ const products = [
   {
     id: 4,
     name: 'Generators',
-    href: '/products/generators',
+    href: '/products/Engine',
     // price: '$35',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
@@ -111,7 +111,7 @@ const products = [
 
 export default function Example() {
   return (
-    <div className="bg-white">
+    <div className="bg-black">
       <Nav />
 
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -127,8 +127,8 @@ export default function Example() {
                   className="h-full w-full object-cover object-center group-hover:opacity-75"
                 />
               </div>
-              <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
-              <p className="mt-1 text-lg font-medium text-gray-900">{product.price}</p>
+              <h3 className="mt-4 text-sm text-slate-200">{product.name}</h3>
+              <p className="mt-1 text-lg font-medium text-slate-100">{product.price}</p>
             </a>
           ))}
         </div>

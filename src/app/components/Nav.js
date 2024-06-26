@@ -33,7 +33,7 @@ export default function Example() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="bg-gray-100 mt-10">
+        <header className="bg-black mt-10">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="/" className="-m-1.5 p-1.5">
@@ -44,7 +44,7 @@ export default function Example() {
                 <div className="flex lg:hidden">
                     <button
                         type="button"
-                        className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+                        className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-100"
                         onClick={() => setMobileMenuOpen(true)}
                     >
                         <span className="sr-only">Open main menu</span>
@@ -75,7 +75,7 @@ export default function Example() {
                                             className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                                         >
                                             <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                                                <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
+                                                <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-400" aria-hidden="true" />
                                             </div>
                                             <div className="flex-auto">
                                                 <a href={item.href} className="block font-semibold text-gray-900">
@@ -103,25 +103,28 @@ export default function Example() {
                         </Transition>
                     </Popover> */}
 
-                    <a href="/products" className="text-sm font-semibold leading-6 text-gray-900">
+                    <a href="/products" className="text-sm font-semibold leading-6 text-slate-100">
                         Products
                     </a>
-                    <a href="/AboutUs" className="text-sm font-semibold leading-6 text-gray-900">
+                    <a href="/AboutUs" className="text-sm font-semibold leading-6 text-slate-100">
                         About Us
                     </a>
-                    {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                    {/* <a href="#" className="text-sm font-semibold leading-6 text-slate-100">
                         Company
                     </a> */}
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                    <a href="#" className="text-sm font-semibold leading-6 text-slate-100">
                         Contact Us <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
+                <a href="https://wa.me/9033791339" target="_blank" className="fixed bottom-4 right-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" className="w-14 h-14" alt="WhatsApp Chat" />
+                </a>
             </nav>
             <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <div className="fixed inset-0 z-10" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
@@ -143,22 +146,22 @@ export default function Example() {
                     <div className="mt-6 flow-root">
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
-                                
+
                                 <a
-                                    href="/Products"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    href="/products"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-100 hover:bg-gray-500"
                                 >
                                     Products
                                 </a>
                                 <a
                                     href="/AboutUs"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-100 hover:bg-gray-500"
                                 >
-                                    About Us 
+                                    About Us
                                 </a>
                                 {/* <a
                                     href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-100 hover:bg-gray-500"
                                 >
                                     Company
                                 </a> */}
@@ -166,7 +169,7 @@ export default function Example() {
                             <div className="py-6">
                                 <a
                                     href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-slate-100 hover:bg-gray-500"
                                 >
                                     Contact Us
                                 </a>
