@@ -43,7 +43,7 @@ const products = [
   {
     id: 3,
     name: 'Hydraulic System And Solutions',
-    href: '/products/hydraulic',
+    href: '/products/hydraulics',
     imageSrc: '/hydraulic/Rexroth-marine-new-directional-valve-1.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
@@ -79,21 +79,21 @@ const products = [
     id: 4,
     name: 'Main Engine',
     href: '/products/Engine',
-    imageSrc: '',
+    imageSrc: '/main-engine/engine.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 4,
     name: 'Marine Cranes',
     href: '/products/Engine',
-    imageSrc: '',
+    imageSrc: '/crane/horizontal.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
     id: 4,
     name: 'Generators',
     href: '/products/Engine',
-    imageSrc: '',
+    imageSrc: '/generator/generators.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
 ]
