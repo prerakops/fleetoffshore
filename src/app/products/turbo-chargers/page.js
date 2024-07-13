@@ -10,53 +10,81 @@ const features = [
   { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
 ]
 
+
+// 4) Turbo Chargers
+
+// Brands:
+
+// -> ABB
+// We provide ABB series VTR which is one of the best brands in providing compact and advanced turbochargers for low speed, medium speed, and high speed marine engines. The ABB Turbocharging portfolio includes a full line of both single and two-stage turbocharging technology. It is capable of producing pressures as high as 12 bar at efficiencies as high as 75% and above. We are providing used turbochargers but in good and reliable condition. We have a large range of ABB series VTR models including VTR 254, VTR 304, VTR 184, VTR 184/11, TPS – F (TPS – 76F), TPL-C, TPL-B, TPL-A, A200-L, and many more.
+
+// -> MAN
+// Man, which is also known as Man Energy Solutions, is the world’s leading manufacturer of large exhaust gas turbochargers. They provide turbochargers for low and medium speed engines which are using diesel and gas. We provide Man B&W series turbochargers which is one of the best brands in two-stroke and dual-fuel for low speed, medium speed, and high speed marine engines. We are providing used turbochargers but in good and reliable condition. We have a large range of Man B&W series models including NR, TCR, TCX, TCT, TCA, and much more.
+
+// -> KBB
+// Kompressorenbau Bannewitz GmbH, which is also known as KBB for short, has been developing and manufacturing exhaust-gas turbochargers with both axial and radial turbines since 1953. We are providing used turbochargers but in good and reliable condition. We have a large range of KBB series models including ST27-ST3, ST4, ST, K2B HPR, M4D, H6-1, and much more.
+
+
+const products = [
+  {
+    id: 1,
+    name: 'ABB',
+    href: '#',
+    price: 'We provide ABB series VTR which is one of the best brands in providing compact and advanced turbochargers for low speed, medium speed, and high speed marine engines. The ABB Turbocharging portfolio includes a full line of both single and two-stage turbocharging technology. It is capable of producing pressures as high as 12 bar at efficiencies as high as 75% and above. We are providing used turbochargers but in good and reliable condition. We have a large range of ABB series VTR models including VTR 254, VTR 304, VTR 184, VTR 184/11, TPS – F (TPS – 76F), TPL-C, TPL-B, TPL-A, A200-L, and many more.',
+    imageSrc: '/turbo/abb-300x225-2-1-300x225.png',
+    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+  },
+  {
+    id: 2,
+    name: 'KBB',
+    href: '#',
+    price: 'Kompressorenbau Bannewitz GmbH, which is also known as KBB for short, has been developing and manufacturing exhaust-gas turbochargers with both axial and radial turbines since 1953. We are providing used turbochargers but in good and reliable condition. We have a large range of KBB series models including ST27-ST3, ST4, ST, K2B HPR, M4D, H6-1, and much more.',
+    imageSrc: '/turbo/kbb_turbo.jpeg',
+    imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+  },
+  {
+    id: 3,
+    name: 'MAN B&W',
+    href: '#',
+    price: 'Man, which is also known as Man Energy Solutions, is the world’s leading manufacturer of large exhaust gas turbochargers. They provide turbochargers for low and medium speed engines which are using diesel and gas. We provide Man B&W series turbochargers which is one of the best brands in two-stroke and dual-fuel for low speed, medium speed, and high speed marine engines. We are providing used turbochargers but in good and reliable condition. We have a large range of Man B&W series models including NR, TCR, TCX, TCT, TCA, and much more.',
+    imageSrc: '/turbo/man-B&W.png',
+    imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+  },
+]
+
+
 export default function Example() {
   return (
     <div className="">
       <Nav />
       <div className="mx-auto grid max-w-4xl grid-cols-0 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-1 lg:px-8">
         <div>
-          <h2 className="text-3xl font-bold tracking-tight text-slate-100 sm:text-4xl">Technical Specifications</h2>
-          <p className="mt-4 text-slate-100">
-            The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coated
-            steel divider separates active cards from new ones, or can be used to archive important task lists.
-          </p>
-          <img
-            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
-            alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-            className="rounded-lg p-2 mt-2 bg-gray-100"
-          />
-          <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
-            {features.map((feature) => (
-              <div key={feature.name} className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-slate-100">{feature.name}</dt>
-                <dd className="mt-2 text-sm text-slate-100">{feature.description}</dd>
-              </div>
-            ))}
-          </dl>
-        </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
+          <h2 className="text-3xl font-bold tracking-tight text-slate-100 sm:text-4xl">Turbo Chargers</h2>
+          <br></br>
+          <hr></hr>
 
-          {/* <img
-            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
-            alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-            className="rounded-lg bg-gray-100"
-          /> */}
-          {/* <img
-            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-02.jpg"
-            alt="Top down view of walnut card tray with embedded magnets and card groove."
-            className="rounded-lg bg-gray-100"
-          />
-          <img
-            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-03.jpg"
-            alt="Side of walnut card tray with card groove and recessed card area."
-            className="rounded-lg bg-gray-100"
-          />
-          <img
-            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg"
-            alt="Walnut card tray filled with cards and card angled in dedicated groove."
-            className="rounded-lg bg-gray-100"
-          /> */}
+          <div className="text-white">
+            <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+              <h2 className="sr-only">Products</h2>
+
+              <div className="text-white grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
+                {products.map((product) => (
+                  <a key={product.id} href={product.href} className="group">
+                    <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                      <img
+                        alt={product.imageAlt}
+                        src={product.imageSrc}
+                        className="h-full w-full object-cover object-center group-hover:opacity-75"
+                      />
+                    </div>
+                    <h3 className="text-white mt-4 text-sm text-gray-700">{product.name}</h3>
+                    <p className="text-white mt-1 text-lg">{product.price}</p>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

@@ -33,9 +33,8 @@ export default function Example() {
               <h2 className="text-base font-semibold leading-7 text-indigo-400">About Us</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-slate-100 sm:text-4xl">NAME OF COMPANY</p>
               <p className="mt-6 text-lg leading-8 text-slate-100">
-              Discover NAME OF COMPANY, your ultimate destination for premium marine solutions. We offer an extensive range of marine products and services, from engines to a diverse selection of parts for Marine Main Engines, Auxiliary Engines, Marine Automation Systems, Engine Control Alarm Systems, Turbochargers, Hydraulics, Marine Cranes, Navigation Gears, Diesel Generators, Oil mist detectors and more. Our commitment to excellence ensures that your vessel operates reliably and safely.
-
-              </p>
+              Fleet Of Shore Supply, your ultimate destination for premium marine solutions. We offer an extensive range of marine products and services, from engines to a diverse selection of parts for Marine Main Engines, Auxiliary Engines, Marine Automation Systems, Engine Control Alarm Systems, Turbochargers, Hydraulics, Marine Cranes, Navigation Gears, Diesel Generators, Oil mist detectors and more. Our commitment to excellence ensures that your vessel operates reliably and safely.
+              </p> 
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-slate-100 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
@@ -50,7 +49,7 @@ export default function Example() {
             </div>
           </div>
           <img
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            src="https://plus.unsplash.com/premium_photo-1664299412781-dc0394417bed?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Product screenshot"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}
