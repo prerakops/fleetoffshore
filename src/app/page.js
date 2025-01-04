@@ -4,24 +4,22 @@ import Nav from './components/Nav';
 
 export default function Home() {
   return (
-
-
     <>
       <Nav></Nav>
 
-      <div className="relative overflow-hidden">
-        <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+      <div className="bg-gray-900 relative overflow-hidden h-full">
+        <div className=" pb-80 pt-10 sm:pb-40 sm:pt-20 lg:pb-48 lg:pt-16">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-            <div className="sm:max-w-lg">
+            <div className="sm:max-w-lg ">
               <h1 className="text-4xl font-bold tracking-tight text-slate-100 sm:text-6xl">
                 One-Stop Solution for All Marine Equipment Needs.
               </h1>
               <p className="mt-4 text-xl text-gray-500">
-                At COMPANY_NAME, we bring unparalleled expertise and a comprehensive range of services to meet all your marine equipment requirements. Our commitment to quality and reliability ensures that your vessels are equipped with the best, keeping them operational and efficient at all times.
+                At Fleet Off Shore Supply, we bring unparalleled expertise and a comprehensive range of services to meet all your marine equipment requirements. Our commitment to quality and reliability ensures that your vessels are equipped with the best, keeping them operational and efficient at all times.
               </p>
             </div>
             <div>
-              <div className="mt-10">
+              <div className="bg-gray-900 ">
                 {/* Decorative image grid */}
                 <div
                   aria-hidden="true"
@@ -61,22 +59,22 @@ export default function Home() {
                           />
                         </div>
                       </div>
-                      {/* <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="h-64 w-60 overflow-hidden rounded-lg">
+                      <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div className="h-64 w-80 overflow-hidden rounded-lg">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                            src="port/port1.jpg"
                             alt=""
                             className="h-full w-full object-cover object-center"
                           />
                         </div>
-                        <div className="h-64 w-60 overflow-hidden rounded-lg">
+                        <div className="h-64 w-80 overflow-hidden rounded-lg">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                            src="port/port3.jpg"
                             alt=""
                             className="h-full w-full object-cover object-center"
                           />
                         </div>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>

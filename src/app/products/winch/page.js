@@ -69,11 +69,11 @@ const products = [
 
 export default function Example() {
   return (
-    <div className="">
+    <div className="bg-gray-900 min-h-screen">
       <Nav />
-      <div className="mx-auto grid max-w-4xl grid-cols-0 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-1 lg:px-8">
+      <div className="bg-gray-900  mx-auto grid max-w-4xl grid-cols-0 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-1 lg:px-8">
         <div>
-          <h2 className="text-3xl font-bold tracking-tight text-slate-100 sm:text-4xl">Winch Engine</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-slate-100 sm:text-4xl">Marine Winch</h2>
           <p className="mt-4 text-slate-100">
             Drop us an email about your requirement at example@example.com to get a quotation.
           </p>
