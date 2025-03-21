@@ -75,7 +75,7 @@ export default function Example() {
         <div>
           <h2 className="text-3xl font-bold tracking-tight text-slate-100 sm:text-4xl">Winch Engine</h2>
           <p className="mt-4 text-slate-100">
-            Drop us an email about your requirement at example@example.com to get a quotation.
+            Drop us an email about your requirement at prerak@fleetoffshoresupply.com to get a quotation.
           </p>
 
           <br></br>
