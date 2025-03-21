@@ -22,10 +22,10 @@ const ContactUs = () => {
                 Contact Information
               </h2>
               <ul className="mt-4 space-y-2 text-gray-300 list-disc list-inside">
-                <li>Name: [Your Name Here]</li>
-                <li>Email: [Your Email Address]</li>
-                <li>Contact Number: [Your Contact Number]</li>
-                <li>Address: [Your Company Address]</li>
+                <li>Name: Prerak Mer</li>
+                <li>Email: prerak@fleetoffshoresupply.com</li>
+                <li>Contact Number: +91 9033791339</li>
+                <li>Address: H-2, Hans Complex, Sanskar Mandal, Bhavnagar, Gujarat, India</li>
               </ul>
               <p className="mt-4 text-lg leading-8 text-gray-300">
                 Feel free to connect with us for inquiries, quotes, or any additional information. Our team is dedicated to providing prompt and personalized support.
